@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@600&display=swap');
+.App{
+  background-color: aliceblue;
+  padding: 0;
+  margin : 0;
+}
+
+.frontend, .backend, .fullstack{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+span{
+  font-family: 'Tourney', cursive;
+}
+.cols{
+  font-size: 20px;
+  font-family: 'Tourney', cursive; 
+}
+.languages{
+  padding-top: 25px;
+}
+.search{
+  display: flex;
+  justify-content: space-between;
+}
+header{
+  display: flex;
+  background-color: #a2a2a2;
+  margin-top: 50px;
+  font-family: 'Tourney', cursive;
+  font-size: 40px;
+  justify-content: center;
+}
